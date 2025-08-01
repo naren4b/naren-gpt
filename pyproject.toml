@@ -1,0 +1,10 @@
+[project]
+name = "naren-gpt"
+version = "0.1.0"
+description = "**Naren GPT** is a self-hosted, privacy-first conversational assistant that brings ChatGPT-like capabilities directly to your desktop — no subscriptions, no limits, no cloud dependencies. Powered by [Ollama](https://ollama.com/) it lets you run powerful LLMs (like LLaMA 3, Qwen, Mistral, etc.) locally with a clean, persistent chat interface."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ollama>=0.5.1",
+    "streamlit>=1.47.1",
+]
